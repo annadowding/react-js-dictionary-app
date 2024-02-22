@@ -1,5 +1,6 @@
 import logo from './images/anna-logo.png';
 import './App.css';
+import Dictionary from "./Dictionary.js";
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
-        <button className="btn btn-primary">Hello</button>
+        <Dictionary/>
       </div>
     </div>
   );
